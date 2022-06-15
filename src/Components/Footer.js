@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 //import emailjs,{init} from "emailjs"
 import emailjs from 'emailjs-com'
 import "./Footer.css"
+import { ANIMATIONTYPE } from '../Pages/Home'
 
 
 const Footer = () => {
@@ -83,7 +84,7 @@ const Footer = () => {
             <h2 class="section_title contact-title">Contact Me</h2>
             <div class="underline"></div>
 
-            <section>
+                <section data-aos={ANIMATIONTYPE}>
                 <form onSubmit="mailto:kevinmosigisi2001@gmail.com">
                     <div className={isNameValid ? "input-control" : "input-control invalid" }>
                         <label>Name</label>
