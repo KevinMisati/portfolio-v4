@@ -11,7 +11,7 @@ const Intro = () => {
             <span><img alt="👋" src="https://twemoji.maxcdn.com/2/72x72/1f44b.png" /></span>
             Hello , I am Kevin Misati
             </h1>
-            <h3 class="front-end-title">Am a Front-end Web Developer</h3>
+            <h3 class="front-end-title">Am a Frontend Web Developer</h3>
             <a href="#work" className={`btn`}>
             <i className="fas fa-eye"></i>
             View my work 
