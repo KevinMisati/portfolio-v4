@@ -10,7 +10,7 @@ export const projects = [
         title: "Electronics Shop",
         url: "https://electron-shop.herokuapp.com/",
         img: electronics,
-        techs: ["CSS","React","Axios","Django","PostreSQL"],
+        techs: ["CSS","React","Axios","Django","PostgreSQL"],
         desc: "This is a real-world full-stack e-commerce web app for selling laptops, phones, and accessories online. A buyer can browse the available products, add the ones he or she wants to buy to the cart, and finally checkout. Products can be delivered to a specified address or picked up from a nearby store, depending on the user's preference.",
         gurl:"https://github.com/KevinMisati/electronic-shop"
     },

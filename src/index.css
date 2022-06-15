@@ -19,7 +19,7 @@
     
     --clr-input:#2A2A35;
     --clr-input-border:#565666;
-    
+
     --clr-nav:#404053;
 
     --fs-h1:3rem;
@@ -141,7 +141,7 @@ a{
     border: 1px solid var(--clr-btn);
     outline: none;
     cursor: pointer;
-    box-shadow: 2px 2px 5px gray;
+    box-shadow: 2px 2px 5px #000;
 }
 .btn:hover{
     color: var(--clr-light);
