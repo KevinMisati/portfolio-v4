@@ -11,11 +11,15 @@
     --clr-dark:#232323;
     --clr-dark:#17171F;
     --clr-lightDark:#233d30;
-    --clr-accent:#a3b18a;
     --clr-accent:#9191A4;
-    --clr-theme:#3F3FFF;
+
+    --clr-btn:#3F3FFF;
+    --clr-btn3:#5a5af7;
+    --clr-btn2:#1717f3;
+    
     --clr-input:#2A2A35;
     --clr-input-border:#565666;
+    
     --clr-nav:#404053;
 
     --fs-h1:3rem;
@@ -126,7 +130,7 @@ a{
     padding: .2rem .5rem;
     color: var(--clr-light);
     text-decoration: none;
-    background-color: var(--clr-dark);
+    background-color: var(--clr-btn3);
     border-radius: 5px;
     font-size: 1.25rem;
     text-transform: capitalize;
@@ -134,14 +138,14 @@ a{
     letter-spacing: 1.5px;
     font-weight: var(--fw-bold);
     transition: all 300ms ease-in-out; 
-    border: 1px solid var(--clr-dark);
+    border: 1px solid var(--clr-btn);
     outline: none;
     cursor: pointer;
     box-shadow: 2px 2px 5px gray;
 }
 .btn:hover{
     color: var(--clr-light);
-    background-color: var(--clr-lightDark);
+    background-color: var(--clr-btn2);
     outline: none;
     transform: translate(0px,-3px) !important;
 }

@@ -16,15 +16,15 @@
 }
 
 .skills-container p {
-    background-color: var(--clr-secondary-dark);
-    border: 1px solid var(--main-color);
+    background-color: var(--clr-btn3);
+    opacity:.5;
+    border: 1px solid var(--clr-btn3);
     border-radius: 3px;
     color: #fff;
     font-weight: 600;
     padding: .5em;
     transition: all .5s, color .5s;
     cursor: pointer;
-    border: 1px solid var(--clr-secondary-dark);
     width: 200px;
     margin: 0px 10px 5px 0;
 }

@@ -1,6 +1,7 @@
 .details-container{
     min-height: 100vh;
     width: 100%;
+    color: var(--clr-light);
 }
 .details{
     width: 100%;
@@ -10,6 +11,7 @@
 }
 .details .title{
     margin:2rem auto 0 auto;
+    color: var(--clr-accent);
 }
 .technologies,
 .about,
@@ -20,6 +22,7 @@
 } 
 .sub-title{
     margin-bottom: 1rem;
+    color: var(--clr-accent);
 }
 
 /* links */
@@ -32,7 +35,7 @@
 } 
 .links a{
     text-decoration: none;
-    background-color: var(--clr-secondary-dark);
+    background-color: var(--clr-btn3);
     color: #fff;
     padding: .5rem 1rem;
     display: inline-block;
@@ -82,14 +85,14 @@
 }
 
 .tech-container{
-    background-color: var(--clr-secondary-dark);
+    background-color: var(--clr-btn3);
     border-radius: 50px;
     color: #fff;
     font-weight: 600;
     padding: .5em;
     transition: all .5s, color .5s;
     cursor: pointer;
-    border: 1px solid var(--clr-secondary-dark);
+    border: 1px solid var(--clr-btn3);
     width: 150px;
     margin: 0px 10px 5px 0;
     text-align: center;
