@@ -1,0 +1,119 @@
+.my_work{
+    z-index: -500;
+}
+    .section_title_projects{
+        text-align: center;
+        color: var(--clr-accent);
+    }
+
+    span.hash{
+        color:#56e7d4 ;
+    }
+    .projects-container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projects{
+        max-width: 90vw;
+        
+        text-align: center;
+        overflow: hidden;
+        margin:0 auto ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        flex-wrap: wrap;
+    }
+    .project{
+        width: 90vw;
+        margin:2rem auto; 
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .project-image-div{
+        height:300px;
+        width: 300px; 
+        overflow: hidden;
+        position: relative;
+        border-radius:5%;
+        box-shadow: var(--bs); 
+        position: relative;
+        background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
+         transition: var(--transition);
+    }
+    .links{
+    transform: translate(35px,0px);
+    position: absolute;
+    z-index: -20;
+    display: none;
+    transition: var(--transition);
+}
+.project-image-div:hover .links{
+    display: block;
+    transform: translate(35px,125px);
+    z-index: 20;
+}
+.links a{
+    color: #fff;
+    text-decoration: none;
+    padding: .35rem .7rem;
+    display: inline-block;
+    background-color: var(--clr-accent);
+    margin: 1rem;
+    text-align: center;
+    border-radius:15px;
+    box-shadow: -1px -1px 1px #999 inset;
+
+}
+
+.project img{
+     min-width: 100%;
+    min-height:100%; 
+    transition: var(--transition);
+    z-index: -100;
+}
+.project img:hover{
+        transform: scale(1.1);
+}
+
+@media (min-width:800px){
+    .my-work{
+        padding: 4rem;
+    }
+    .projects{
+        flex-direction: row;
+        flex-wrap: wrap; 
+        justify-content: center;
+        max-width: 1144px;
+    }
+
+    .project-image-div{
+        width: 300px;
+        height:300px;
+        overflow: hidden;
+        border-radius:5%;
+        box-shadow: var(--bs);
+    }
+    .project{
+       width:auto;
+       margin: 1rem;
+    }
+    .button{
+        display: none;
+    }
+}
+
+@media screen and (max-width:567px){
+     .project-image-div{
+        width: 80vw;
+        height:300px;
+
+    }
+
+}

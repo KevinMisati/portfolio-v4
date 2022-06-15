@@ -1,0 +1,64 @@
+.intro{
+    position: relative; 
+    text-align: center;
+    
+}
+ .intro img {
+    position: relative;
+  animation: hand 1.8s infinite ;
+    transform-origin: 70% 70%;
+    display: block;
+    margin-bottom: 1.35rem;
+}
+
+.btn i{
+  margin-right: .25rem;
+}
+
+@keyframes hand {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(12deg);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  40% {
+    transform: rotate(9deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.intro h1{
+    font-size: 1.75rem;
+    color: var(--clr-light);
+    text-align: center;
+}
+.intro h3.front-end-title{
+    font-size: 1.5rem;
+    color: var(--clr-light);
+}
+@media(max-width:567px){
+  .intro h1{
+    font-size: 1.35rem;
+   
+  }
+  .intro h3.front-end-title{
+    font-size: 1.15rem;
+}
+.intro img{
+  width: 35px;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+}

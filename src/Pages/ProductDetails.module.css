@@ -1,0 +1,116 @@
+.details-container{
+    min-height: 100vh;
+    width: 100%;
+}
+.details{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    padding:1rem;
+}
+.details .title{
+    margin:2rem auto 0 auto;
+}
+.technologies,
+.about,
+.links{
+    width: 100%;
+    width: 100%;
+    margin: 2rem auto;
+} 
+.sub-title{
+    margin-bottom: 1rem;
+}
+
+/* links */
+.links{
+    width: 100%;
+    max-width: 1140px;
+    margin: 2rem 0rem;
+    display: flex;
+    justify-content: space-between;
+} 
+.links a{
+    text-decoration: none;
+    background-color: var(--clr-accent);
+    color: #fff;
+    padding: .5rem 1rem;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    box-shadow: -3px -3px 2px #aaa inset;
+}
+.links a:hover{
+    transform: rotate(2deg);
+}
+
+/* image */
+.product-img{
+    min-height: 300px;
+    max-height: 500px;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: -1px -1px 5px gray;
+}
+.product-img img{
+    width: 100% !important ;
+    max-height: 500px;
+    height: 100% !important;
+    min-height: 300px;
+    max-width: 100% !important;
+    object-fit: cover;
+}
+/* techs */
+.about-techs{
+    width: 100%;
+    justify-content: flex-start;
+}
+.about{
+    flex: .60;
+    margin: 2rem 0;
+}
+.about p{
+    color:#000;
+}
+.technologies{
+    flex:.30;
+}
+.techs-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.tech-container{
+    background-color: var(--clr-accent);
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+    padding: .5em;
+    transition: all .5s, color .5s;
+    cursor: pointer;
+    border: 1px solid var(--clr-accent);
+    width: 150px;
+    margin: 0px 10px 5px 0;
+    text-align: center;
+}
+
+.tech-container:hover{
+    background-color: transparent;
+    color: var(--clr-dark);
+}
+
+
+@media screen and (max-width:576px){
+    .about-techs{
+        flex-direction: column;
+    }
+    .links{
+        margin: 1rem 0;
+    }
+    .links a{
+        width: 150px;
+        padding: .35rem .7rem;
+    }
+    
+}
