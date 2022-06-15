@@ -1,14 +1,3 @@
-.my_work{
-    z-index: -500;
-}
-    .section_title_projects{
-        text-align: center;
-        color: var(--clr-accent);
-    }
-
-    span.hash{
-        color:#56e7d4 ;
-    }
     .projects-container{
         width: 100%;
         display: flex;
@@ -17,8 +6,6 @@
     }
 
     .projects{
-        max-width: 90vw;
-        
         text-align: center;
         overflow: hidden;
         margin:0 auto ;
@@ -30,7 +17,6 @@
         flex-wrap: wrap;
     }
     .project{
-        width: 90vw;
         margin:2rem auto; 
         position: relative;
         display: flex;

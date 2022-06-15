@@ -17,17 +17,10 @@ h3.front-end-title{
 }
 
 section.my_services{
-    background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;
     margin-bottom: 4em;
     overflow: hidden;
-}
-.section_title_services{
-    color: var(--clr-accent);
-}
-.my_services .underline{
-    background: var(--clr-light);
 }
 .services_text{
     max-width: 600px;

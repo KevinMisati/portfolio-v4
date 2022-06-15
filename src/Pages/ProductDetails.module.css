@@ -32,13 +32,13 @@
 } 
 .links a{
     text-decoration: none;
-    background-color: var(--clr-accent);
+    background-color: var(--clr-secondary-dark);
     color: #fff;
     padding: .5rem 1rem;
     display: inline-block;
     text-align: center;
     width: 200px;
-    box-shadow: -3px -3px 2px #aaa inset;
+    box-shadow: -3px -3px 2px #242424 inset;
 }
 .links a:hover{
     transform: rotate(2deg);
@@ -70,7 +70,7 @@
     margin: 2rem 0;
 }
 .about p{
-    color:#000;
+    color:var(--clr-light);
 }
 .technologies{
     flex:.30;
@@ -82,14 +82,14 @@
 }
 
 .tech-container{
-    background-color: var(--clr-accent);
+    background-color: var(--clr-secondary-dark);
     border-radius: 50px;
     color: #fff;
     font-weight: 600;
     padding: .5em;
     transition: all .5s, color .5s;
     cursor: pointer;
-    border: 1px solid var(--clr-accent);
+    border: 1px solid var(--clr-secondary-dark);
     width: 150px;
     margin: 0px 10px 5px 0;
     text-align: center;
@@ -97,7 +97,6 @@
 
 .tech-container:hover{
     background-color: transparent;
-    color: var(--clr-dark);
 }
 
 

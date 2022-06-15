@@ -1,22 +1,23 @@
 .header-banner{
     display: flex;
     flex-direction: column;
-    background:#232323;
     position: relative;
-    height: 100vh;
-    height: calc(100vh - 75px);
     width: 100%;
     margin: 0;
     padding:0;
-    color:#222 ;
     overflow-x: hidden;
 }
 .intro-main-container{
     width:100vw;
     height: 100%;
-    display: flex;
     justify-content: center;
     align-items: center;
     
+}
+.descriptive-img{
+  width:100%;
+  height: 50vh;
+  background:url("https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?size=626&ext=jpg&ga=GA1.2.348767858.1655273418") center/cover fixed;
+
 }
 /*====end of header====*/

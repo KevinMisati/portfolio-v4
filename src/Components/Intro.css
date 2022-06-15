@@ -1,9 +1,17 @@
 .intro{
     position: relative; 
     text-align: center;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    flex-direction: column;
+    height: calc(100vh - 75px);
 }
- .intro img {
+.main-intro{
+  margin-bottom: 2rem;
+}
+ .main-intro img {
     position: relative;
   animation: hand 1.8s infinite ;
     transform-origin: 70% 70%;
@@ -46,6 +54,11 @@
 .intro h3.front-end-title{
     font-size: 1.5rem;
     color: var(--clr-light);
+}
+
+.descriptive-img img{
+  width: 100%;
+  object-fit: contain;
 }
 @media(max-width:567px){
   .intro h1{

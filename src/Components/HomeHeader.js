@@ -8,6 +8,7 @@ const Header = () => {
             <div className="header-banner" >
             <div className="intro-main-container">
                     <Intro />
+                    <div className="descriptive-img"></div>
             </div>
             
             </div>

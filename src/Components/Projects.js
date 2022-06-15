@@ -48,7 +48,7 @@ export const projects = [
 const Projects = () => {
     return (
         <section class="my_work" id="work">
-            <h2 class="section_title section_title_projects"> My Projects</h2>
+            <h2 class="section_title"> My Projects</h2>
             <div class="underline"></div>
             
             <p class="section_subtitle"></p>
