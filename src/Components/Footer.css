@@ -28,6 +28,7 @@ footer textarea{
     outline: 2px solid var(--clr-input-border);
     font-size: 1.1rem;
     background: #2A2A35;
+    color:var(--clr-light);
 }
 input{
     height: 1.875rem;
