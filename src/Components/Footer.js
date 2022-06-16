@@ -23,7 +23,7 @@ const Footer = () => {
     const userId = '6ScGCGqhcs2V61Ugf';
     const templateParams = {
         name,
-        email: "kevinmosigisi001@gmail.com",
+        email,
         message
     };
 
