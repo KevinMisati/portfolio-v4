@@ -6,7 +6,7 @@ import { ANIMATIONTYPE } from '../Pages/Home'
 export const projects = [
     {
         title:"Electronics Shop",
-        url: "https://electron-shop.herokuapp.com/",
+        url: "https://lapstoro.netlify.app/",
         img: "./images/electronics.png",
         techs: [],
         desc:""
