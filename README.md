@@ -2,6 +2,8 @@
 
 This is my own personal portfolio that I built from scratch. It had evolved a lot since when I started learning how to code.
 
+Check it live [here](https://kevinmisati.netlify.app/)
+
 # Technologies Used
 React
 
