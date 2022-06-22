@@ -1,4 +1,6 @@
 # Portfolio
+![FireShot Capture 020 - Kevin Misati - kevinmisati netlify app](https://user-images.githubusercontent.com/65482241/174969591-83beb4ef-0ea3-42e8-ac21-2908721ac7b1.png)
+
 
 This is my own personal portfolio that I built from scratch. It had evolved a lot since when I started learning how to code.
 
