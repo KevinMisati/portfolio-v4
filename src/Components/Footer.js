@@ -129,7 +129,7 @@ const Footer = () => {
                 </div>
             </section>
     
-            <p class="copyright">Kevin Misati &copy;2023</p>
+            <p class="copyright">Kevin Misati &copy;{new Date().getFullYear()}</p>
             </div>
         </footer>
     )
