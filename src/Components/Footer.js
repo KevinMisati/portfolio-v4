@@ -18,7 +18,7 @@ const Footer = () => {
     const [isMessageValid,setIsMessageValid] = useState(true)
     const [emailSent, setEmailSent] = useState(false);
 
-    const serviceId = 'service_zt68sgh';
+    const serviceId = 'service_prs1pb5';
     const templateId = 'contact_form';
     const userId = '6ScGCGqhcs2V61Ugf';
     const templateParams = {
