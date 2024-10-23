@@ -85,25 +85,7 @@ const Footer = () => {
             <div class="underline"></div>
 
                 <section data-aos={ANIMATIONTYPE}>
-                <form onSubmit="mailto:kevinmosigisi2001@gmail.com">
-                    <div className={isNameValid ? "input-control" : "input-control invalid" }>
-                        <label>Name</label>
-                        <input onChange={handleInputChange} name="name" value={name} type="text"/>
-                    </div>
-                    <div className={isEmailValid ? "input-control" : "input-control invalid"}>
-                        <label>Email</label>
-                        <input onChange={handleInputChange}  name="email" value={email} type="email" />
-                    </div>
-                    <div className={isMessageValid ? "input-control" : "input-control invalid"}>
-                        <label>Message</label>
-                        <textarea onChange={handleInputChange} name="message" value={message}></textarea>
-                    </div>
-                    {emailSent && <p className="success">Message sent! I will respond to you as soon as possible</p>}
-                    <div className="input-control">
-                        <button onClick={handleSubmit} type="submit" className="btn">Send it!</button>
-                    </div>
-                    
-                </form>
+                
 
                 <div className="footer-links">
                     <a href="mailto:kevinmisati001@gmail.com" class="footer_link">kevinmisati001@gmail.com</a>
