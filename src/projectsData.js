@@ -6,13 +6,21 @@ import construction from "./images/construction.png"
 import  nasa from "./images/nasa.png"
 
 export const projects = [
-    {
+    /* {
         title: "Electronics Shop",
         url: "https://lapstoro.netlify.app/",
         img: electronics,
         techs: ["CSS","React","Axios","Django","PostgreSQL"],
         desc: "This is a real-world full-stack e-commerce web app for selling laptops, phones, and accessories online. A buyer can browse the available products, add the ones he or she wants to buy to the cart, and finally checkout. Products can be delivered to a specified address or picked up from a nearby store, depending on the user's preference.",
         gurl:"https://github.com/KevinMisati/electronic-shop"
+    }, */
+    {
+        title: "Electronics Shop",
+        url: "https://dreamlaptop.netlify.app/",
+        img: electronics,
+        techs: ["CSS","React","Axios","Django","SQlite"],
+        desc: "This is a real-world full-stack e-commerce web app for selling laptops, phones, and accessories online. A buyer can browse the available products, add the ones he or she wants to buy to the cart, and finally checkout. Products can be delivered to a specified address or picked up from a nearby store, depending on the user's preference.",
+        gurl:"https://github.com/KevinMisati/Lapshop-frontend"
     },
     
     {

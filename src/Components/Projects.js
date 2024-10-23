@@ -10,9 +10,16 @@ import snapshot from "../images/snapshot.png"
 import nasa  from "../images/nasa.png"
 
 export const projects = [
-    {
+    /* {
         title:"Electronics Shop",
         url: "https://lapstoro.netlify.app/",
+        img: electronics,
+        techs: [],
+        desc:""
+    }, */
+    {
+        title:"Electronics Shop",
+        url: "https://dreamlaptop.netlify.app/",
         img: electronics,
         techs: [],
         desc:""
