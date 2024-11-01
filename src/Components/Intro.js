@@ -34,7 +34,7 @@ const Intro = () => {
                     <HeroCamera>
                         <HackerRoom 
                             position={sizes.deskPosition} 
-                            rotation={[0,-Math.PI,0]} 
+                            rotation={[0,0,0]} 
                             scale={sizes.deskScale}
                         /> 
                     </HeroCamera>
