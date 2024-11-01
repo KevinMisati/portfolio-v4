@@ -8,19 +8,20 @@
     flex-direction: column;
     height: calc(100vh - 75px);
 }
-.main-intro{
-  margin-bottom: 2rem;
-}
- .main-intro img {
+.waving-hand {
     position: relative;
-  animation: hand 1.8s infinite ;
+    animation: hand 1.8s infinite ;
     transform-origin: 70% 70%;
-    display: block;
+    display: inline-block;
     margin-bottom: 1.35rem;
 }
-
 .btn i{
   margin-right: .25rem;
+}
+.canvas-container{
+  height: 100%;
+  width: 100%;
+  z-index: 100;
 }
 
 @keyframes hand {
@@ -47,31 +48,21 @@
   }
 }
 .intro h1{
-    font-size: 1.75rem;
+    font-size: 1.35rem;
     color: var(--clr-light);
     text-align: center;
 }
 .intro h3.front-end-title{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: var(--clr-light);
 }
 
-.descriptive-img img{
-  width: 100%;
-  object-fit: contain;
-}
 @media(max-width:567px){
   .intro h1{
-    font-size: 1.35rem;
+    font-size: 1rem;
    
   }
   .intro h3.front-end-title{
     font-size: 1.15rem;
 }
-.intro img{
-  width: 35px;
-  margin-bottom: 1rem;
-  display: block;
-}
-
 }
