@@ -253,7 +253,7 @@ export const navLinks = [
       cubePosition: isSmall ? [4, -5, 0] : isMobile ? [9, -7, 0] : isTablet ? [13, -6.5, 0] : [16, -7, 0],
       reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [8, 7, 0] : isTablet ? [15, 7, 0] : [16, 7, 0],
       ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-18, 15, 0] : isTablet ? [-25, 15, 0] : [-34,10, 10],
-      targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-10, -8, 0] : isTablet ? [-21, -14, -10] : [-55, -20, -25],
+      targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -9, 0] : isTablet ? [-21, -14, -10] : [-55, -20, -25],
     };
   };
   
