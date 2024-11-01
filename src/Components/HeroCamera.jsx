@@ -12,7 +12,7 @@ const HeroCamera = ({ isMobile, children }) => {
     //state.camera.lookAt(0, 0, 0);
 
     if (!isMobile) {
-      easing.dampE(group.current.rotation, [-state.pointer.y / 3, state.pointer.x / 5, 0], 0.25, delta);
+      easing.damp3(state.camera.position, [-15, -5, 0], 0.25, delta);
     }
   });
 
