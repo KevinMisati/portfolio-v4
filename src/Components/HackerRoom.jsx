@@ -20,7 +20,7 @@ const Hackeroom = (props) =>  {
   // Set rotation limits (in radians)
   const minRotation = -0.00001  // -45 degrees
   const maxRotation =  0.00001  // 45 degrees
-  const rotationSpeed = 0.0001
+  const rotationSpeed = 0.001
 
   useFrame(() => {
     if (groupRef.current) {
