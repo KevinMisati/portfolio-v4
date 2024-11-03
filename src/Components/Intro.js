@@ -12,42 +12,8 @@ import Cube from '../Components/Cube'
 import Rings from '../Components/Rings'
 import HeroCamera from '../Components/HeroCamera'
 import Button from '../Components/Button'
-import { Leva, useControls } from 'leva'
 
 const Intro = () => {
-    let pi = Math.PI
-    const x  = useControls({ 
-        rotationX:{
-            value:0.2,
-            min:-10,
-            max:10
-        },
-        rotationY:{
-            value:0,
-            min:-10,
-            max:10
-        },
-        rotationZ:{
-            value:0,
-            min:-10,
-            max:10
-        },
-        positionX:{
-            value:0,
-            min:-10,
-            max:360
-        },
-        positionY:{
-            value:0,
-            min:0,
-            max:360
-        },
-        positionZ:{
-            value:0,
-            min:0,
-            max:360
-        }
-     })
     const isSmall = useMediaQuery({maxWidth:440})
     const isMobile = useMediaQuery({maxWidth:768})
     const isTablet = useMediaQuery({minWidth:768,maxWidth:1024})
@@ -61,7 +27,6 @@ const Intro = () => {
                 Hi, I am Kevin <span className='waving-hand'>👋</span>
             </p>
             <h3 className="front-end-title">I build cool stuff for the web</h3>
-            <Leva />
             <Canvas className='w-full h-full'>
                     <Suspense fallback={<CanvasLoader />}>
                         <PerspectiveCamera makeDefault position={[0,0,20]} />
