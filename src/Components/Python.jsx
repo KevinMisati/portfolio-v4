@@ -6,15 +6,38 @@ Source: https://sketchfab.com/3d-models/python-8be4a2579dd84586b915068e475073ee
 Title: Python
 */
 
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import { useGLTF } from '@react-three/drei'
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
 
 export function Python(props) {
 const { nodes, materials } = useGLTF('models/python.glb')
+
+const pythonRef = useRef();
+  const [hovered, setHovered] = useState(false);
+
+  useGSAP(() => {
+    gsap
+      .timeline({
+        repeat: -1,
+        repeatDelay: 0.5,
+      })
+      .to(pythonRef.current.rotation, {
+        y: hovered ? '+=2' : `+=${Math.PI * 2}`,
+        x: hovered ? '+=2' : `-=${Math.PI * 2}`,
+        duration: 2.5,
+        stagger: {
+          each: 0.15,
+        },
+      });
+  });
+
 return (
     <group {...props} dispose={null}>
     <group scale={0.004}>
         <mesh
+            ref={pythonRef}
             castShadow
             receiveShadow
             geometry={nodes.Python_Python_0.geometry}
