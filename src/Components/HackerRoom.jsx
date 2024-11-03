@@ -6,13 +6,41 @@ Source: https://sketchfab.com/3d-models/stylized-hacked-pc-sketchfabweeklychalle
 Title: Stylized Hacked PC #SketchfabWeeklyChallenge
 */
 
-import React, { useRef } from 'react'
+import React, { useRef , useState} from 'react'
 import { useGLTF } from '@react-three/drei'
+import { useFrame } from '@react-three/fiber'
 
 const Hackeroom = (props) =>  {
   const { nodes, materials } = useGLTF('models/glb.glb')
+
+  const groupRef = useRef()
+
+  const [increasing, setIncreasing] = useState(true) // Track rotation direction
+
+  // Set rotation limits (in radians)
+  const minRotation = -0.00001  // -45 degrees
+  const maxRotation =  0.00001  // 45 degrees
+  const rotationSpeed = 0.0001
+
+  useFrame(() => {
+    if (groupRef.current) {
+      // Update rotation based on direction
+      if (increasing) {
+        groupRef.current.rotation.z += rotationSpeed
+        if (groupRef.current.rotation.z >= maxRotation) {
+          setIncreasing(false) // Reverse direction when reaching max
+        }
+      } else {
+        groupRef.current.rotation.z -= rotationSpeed
+        if (groupRef.current.rotation.z <= minRotation) {
+          setIncreasing(true) // Reverse direction when reaching min
+        }
+      }
+    }
+})
+
   return (
-    <group {...props} dispose={null}>
+    <group ref={groupRef} {...props} dispose={null}>
       <group name="Sketchfab_model" rotation={[-Math.PI / 1.75, -0.1, -1.35]} scale={21.276596}>
         <mesh
           name="Final_lambert1_0"
