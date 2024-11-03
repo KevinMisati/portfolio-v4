@@ -106,6 +106,8 @@ a{
 }
 
 .section_title_intro{
+    color: var(--clr-accent);
+    font-size: 1.55rem;
     font-weight: var(--fw-reg);
 }
 
