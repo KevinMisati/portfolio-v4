@@ -246,14 +246,24 @@ export const navLinks = [
     },
   ];
   
+  // export const calculateSizes = (isSmall, isMobile, isTablet) => {
+  //   return {
+  //     deskScale: isSmall ? 0.05 : isMobile ? 5 : 10,
+  //     deskPosition: isMobile ? [27.5, -9.5, 0] : [59.5, -12.5, 0],
+  //     cubePosition: isSmall ? [4, -5, 0] : isMobile ? [9, -7, 0] : isTablet ? [13, -6.5, 0] : [30, -7, 0],
+  //     reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [8, 7, 0] : isTablet ? [15, 7, 0] : [16, 7, 0],
+  //     ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-18, 15, 0] : isTablet ? [-25, 15, 0] : [-34,10, 10],
+  //     targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -9, 0] : isTablet ? [-21, -14, -10] : [-55, -20, -25],
+  //   };
+  // };
   export const calculateSizes = (isSmall, isMobile, isTablet) => {
     return {
-      deskScale: isSmall ? 0.05 : isMobile ? 5 : 10,
-      deskPosition: isMobile ? [27.5, -9.5, 0] : [59.5, -12.5, 0],
-      cubePosition: isSmall ? [4, -5, 0] : isMobile ? [9, -7, 0] : isTablet ? [13, -6.5, 0] : [30, -7, 0],
-      reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [8, 7, 0] : isTablet ? [15, 7, 0] : [16, 7, 0],
-      ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-18, 15, 0] : isTablet ? [-25, 15, 0] : [-34,10, 10],
-      targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -9, 0] : isTablet ? [-21, -14, -10] : [-55, -20, -25],
+      deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 5,
+      deskPosition: isMobile ? [0.5, -4.5, 0] : [-7, -5, 0],
+      cubePosition: isSmall ? [4, -5, 0] : isMobile ? [5, -5, 0] : isTablet ? [5, -5, 0] : [9, -5.5, 0],
+      reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5, 4, 0] : isTablet ? [5, 4, 0] : [12, 3, 0],
+      ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-10, 10, 0] : isTablet ? [-12, 10, 0] : [-24, 10, 0],
+      targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
     };
   };
   

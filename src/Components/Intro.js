@@ -62,30 +62,26 @@ const Intro = () => {
             </p>
             <h3 className="front-end-title">I build cool stuff for the web</h3>
             <Leva />
-            <Canvas className='canvas-container'>
-                <Suspense fallback={<CanvasLoader />}>
-                    <PerspectiveCamera 
-                        makeDefault 
-                        position={[0, 0, 0]} 
-                        rotation={[0, 0, 0]} 
-                        />
-                    <HeroCamera>
-                        <HackerRoom 
-                            position={sizes.deskPosition} 
-                            rotation={[x.rotationX, x.rotationY, x.rotationZ]} 
-                            scale={sizes.deskScale}
-                        /> 
-                    </HeroCamera>
-                    <group>
-                        <Target position={sizes.targetPosition}  /> 
-                        <ReactLogo position={sizes.reactLogoPosition}  />
-                        <Cube position={sizes.cubePosition} />
-                        <Rings position={sizes.ringPosition} /> 
-                    </group> 
-                    <ambientLight intensity={1} />
-                    <directionalLight position={[10,10,10]} intensity={0.5} />
-                </Suspense> 
-            </Canvas>
+            <Canvas className='w-full h-full'>
+                    <Suspense fallback={<CanvasLoader />}>
+                        <PerspectiveCamera makeDefault position={[0,0,20]} />
+                        <HeroCamera>
+                            <HackerRoom 
+                                position={sizes.deskPosition} 
+                                rotation={[2.6, 0.8, -1.8]} 
+                                scale={sizes.deskScale}
+                            />
+                        </HeroCamera>
+                        <group>
+                            <Target position={sizes.targetPosition}  /> 
+                            <ReactLogo position={sizes.reactLogoPosition}  />
+                            <Cube position={sizes.cubePosition} />
+                            <Rings position={sizes.ringPosition} />
+                        </group>
+                        <ambientLight intensity={1} />
+                        <directionalLight position={[10,10,10]} intensity={0.5} />
+                    </Suspense>
+                </Canvas>
             <a href="#work" className={`btn`}>
                 <i className="fas fa-eye"></i>
                 View my work 
