@@ -10,6 +10,7 @@ import Target from '../Components/Target'
 import ReactLogo from '../Components/ReactLogo'
 import Cube from '../Components/Cube'
 import Rings from '../Components/Rings'
+import { Python } from './Python'
 import HeroCamera from '../Components/HeroCamera'
 import Button from '../Components/Button'
 
@@ -41,7 +42,8 @@ const Intro = () => {
                             <Target position={sizes.targetPosition}  /> 
                             <ReactLogo position={sizes.reactLogoPosition}  />
                             <Cube position={sizes.cubePosition} />
-                            <Rings position={sizes.ringPosition} />
+                            {/* <Rings position={sizes.ringPosition} /> */}
+                            <Python position={sizes.pythonPosition} />
                         </group>
                         <ambientLight intensity={1} />
                         <directionalLight position={[10,10,10]} intensity={0.5} />
