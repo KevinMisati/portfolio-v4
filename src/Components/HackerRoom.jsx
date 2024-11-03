@@ -41,7 +41,7 @@ const Hackeroom = (props) =>  {
 
   return (
     <group ref={groupRef} {...props} dispose={null}>
-      <group name="Sketchfab_model" rotation={[-Math.PI / 1.75, -0.1, -1.35]} scale={21.276596}>
+      <group name="Sketchfab_model" rotation={[-Math.PI / 1.85, -0.1, -1.35]} scale={21.276596}>
         <mesh
           name="Final_lambert1_0"
           castShadow
