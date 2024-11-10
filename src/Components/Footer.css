@@ -7,66 +7,19 @@ footer section{
     width: 100%;
     justify-content: center;
 }
-form{
-    margin-right: 1rem;
-}
-.input-control{
-    margin: 1rem 0;
-}
-.input-control label{
-    font-size: 1.2rem;
-    margin-right: .25rem;
-    display: block;
-    text-align: left;
-}
-footer input,
-footer textarea{
-    width: 300px;
-    border-radius: 5px;
-    padding: .25rem .5rem;
-    border: none;
-    outline: 2px solid var(--clr-input-border);
-    font-size: 1.1rem;
-    background: #2A2A35;
-    color:var(--clr-light);
-}
-input{
-    height: 1.875rem;
-}
-textarea{
-    height: 100px;
-}
-.input-control {
-    justify-self: left;
-    text-align: left;
-}
-input:focus,input:active,
-textarea:focus,textarea:active{
-    border: none;
-    outline: 2px solid var(--clr-accent);
-}
-.invalid input,
-.invalid textarea{
-    outline: 2px solid red;
-}
-.success{
-    font-size: .9rem;
-    max-width: 300px;
-}
-
 .footer-links{
-    padding: 2rem 0;
+    padding: 0rem 0;
     margin-left: 1rem;
 }
 footer ul{
     display: flex;
     justify-content: center;
-    margin: 1.5rem 0 0 0;
+    margin: 0 0 0 0;
 }
 .footer_link{
     padding: .5em;
     list-style-type:none;
-    margin: .5rem ;
+    margin: 0rem ;
     font-weight: var(--bs);
     font-size:1rem;
 }
@@ -88,7 +41,6 @@ span.fab{
     font-size:.75rem;
     margin: 0 auto;
     text-transform: uppercase;
-    padding: 1rem;
     text-align: center;
 }
 @media screen and (max-width:567px){
