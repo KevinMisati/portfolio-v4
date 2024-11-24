@@ -3,6 +3,7 @@ import "./Projects.css"
 import {Link} from "react-router-dom"
 import { ANIMATIONTYPE } from '../Pages/Home'
 import electronics from "../images/electronics.png"
+import hospital from "../images/Keumbu hospital.png"
 import liviti  from "../images/livit.png"
 import jumia from "../images/jumia.png"
 import construction from "../images/construction.png"
@@ -10,13 +11,13 @@ import snapshot from "../images/snapshot.png"
 import nasa  from "../images/nasa.png"
 
 export const projects = [
-    /* {
-        title:"Electronics Shop",
-        url: "https://lapstoro.netlify.app/",
-        img: electronics,
+    {
+        title:"Keumbu hospital",
+        url: "https://keumbu-hospital.vercel.app/",
+        img: hospital,
         techs: [],
         desc:""
-    }, */
+    },
     {
         title:"Electronics Shop",
         url: "https://dreamlaptop.netlify.app/",
@@ -47,15 +48,7 @@ export const projects = [
         img: snapshot,
         techs: [],
         desc: ""
-    },
-    
-    {
-        title: "Nasa api",
-        url: "https://nasaapii.netlify.app/",
-        img: nasa,
-        techs: [],
-        desc:""
-     },
+    }
 ]
 
 const Projects = () => {

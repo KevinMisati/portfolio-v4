@@ -1,5 +1,6 @@
 import electronics from "./images/electronics.png"
 import jumia from "./images/jumia.png"
+import hospital from "./images/Keumbu hospital.png"
 import snapshot from "./images/snapshot.png"
 import livit from "./images/livit.png"
 import construction from "./images/construction.png"
@@ -14,6 +15,19 @@ export const projects = [
         desc: "This is a real-world full-stack e-commerce web app for selling laptops, phones, and accessories online. A buyer can browse the available products, add the ones he or she wants to buy to the cart, and finally checkout. Products can be delivered to a specified address or picked up from a nearby store, depending on the user's preference.",
         gurl:"https://github.com/KevinMisati/electronic-shop"
     }, */
+    /* title:"Keumbu hospital",
+        url: "https://keumbu-hospital.vercel.app/",
+        img: hospital,
+        techs: [],
+        desc:"" */
+    {
+        title: "Keumbu hospital",
+        url: "https://keumbu-hospital.vercel.app/",
+        img: hospital,
+        techs: ["NextJs","TypeScript","Appwrite","ShadCdn","Tailwind CSS"],
+        desc: "This is a full-stack hospital application with a seamless booking system for doctor appointments",
+        gurl:"https://github.com/KevinMisati/healthcare"
+    },
     {
         title: "Electronics Shop",
         url: "https://dreamlaptop.netlify.app/",
