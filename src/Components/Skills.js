@@ -4,11 +4,6 @@ import { ANIMATIONTYPE } from '../Pages/Home'
 
 
 const Skills = () => {
-   /*  const skills = [
-        {
-            name:"HTML5"
-        }
-    ] */
     return (
         <section class="skills">
             <div class="skills-block">
