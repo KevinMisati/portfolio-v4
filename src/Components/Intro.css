@@ -1,12 +1,23 @@
-.intro{
-    position: relative; 
-    text-align: center;
+.intro-container{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%; 
-    flex-direction: column;
     height: calc(100vh - 75px);
+}
+@media(max-width:800px){
+  .intro-container{
+    flex-direction: column;
+}
+}
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+.img-container img{
+  max-width: 400px !important;
 }
 .waving-hand {
     position: relative;
@@ -17,11 +28,6 @@
 }
 .btn i{
   margin-right: .25rem;
-}
-.canvas-container{
-  height: 100%;
-  width: 100%;
-  z-index: 100;
 }
 
 @keyframes hand {
