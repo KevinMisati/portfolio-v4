@@ -3,7 +3,8 @@
     align-items: center;
     justify-content: center;
     width: 100%; 
-    height: calc(100vh - 75px);
+    height: fit-content;
+    min-height: calc(100vh - 75px);
 }
 @media(max-width:800px){
   .intro-container{
