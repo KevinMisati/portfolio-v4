@@ -4,6 +4,7 @@ import hospital from "./images/Keumbu hospital.png"
 import snapshot from "./images/snapshot.png"
 import livit from "./images/livit.png"
 import construction from "./images/construction.png"
+import resumeBuilder from "./images/resume builder.png"
 import  nasa from "./images/nasa.png"
 
 export const projects = [
@@ -27,6 +28,14 @@ export const projects = [
         techs: ["NextJs","TypeScript","Appwrite","ShadCdn","Tailwind CSS"],
         desc: "This is a full-stack hospital application with a seamless booking system for doctor appointments",
         gurl:"https://github.com/KevinMisati/healthcare"
+    },
+    {
+        title: "Resume builder",
+        url: "https://build-cvs.vercel.app/",
+        img: resumeBuilder,
+        techs: ["NextJs","TypeScript","Prisma","Clerk","ShadCdn","Tailwind CSS"],
+        desc: "This is a full-stack CV builder application",
+        gurl:"https://github.com/KevinMisati/resume-builder"
     },
     {
         title: "Electronics Shop",
@@ -61,21 +70,21 @@ export const projects = [
         desc: "This is a website for people who enjoy traveling, possibly during the holidays, and who want to book their accommodation houses or rooms online before they go. They simply look through the houses and rooms and choose the ones they like best.",
         gurl:"https://github.com/KevinMisati/hospitality-management"
     },
-    {
+    /* {
         title: "Construction company",
         url: "https://we-build1.netlify.app/",
         img:construction,
         techs: ["CSS", "React"],
         desc: "This website connects a building company with potential customers. Customers review some of the company's previous projects, and if they like the company, they can contact it via email or phone for a business deal.",
         gurl: "https://github.com/KevinMisati/construction-company"
-    },
-    {
+    }, */
+    /* {
         title: "Nasa api",
         url: "https://nasaapii.netlify.app/",
         img: nasa,
         techs: ["HTML","CSS", "JavaScript","NASA API"],
         desc: "I'm pulling data from the NASA API and displaying it throughout this site. I'm displaying daily news that NASA updates every day, a Mars rover photo, and some random images from their library that will change with each refresh.",
         gurl: "https://github.com/KevinMisati/nasapi"
-    },
+    }, */
 ]
 
