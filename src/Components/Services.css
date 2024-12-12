@@ -10,6 +10,13 @@
 .services *{
     overflow-x: hidden;
 }
+.services img{
+    width: 100%;
+    max-width: 500px !important;
+}
+.services_text{
+    max-width: 600px;
+}
 
 h3.front-end-title{
     margin: 1em 0;
@@ -22,11 +29,6 @@ section.my_services{
     margin-bottom: 4em;
     overflow: hidden;
 }
-.services_text{
-    max-width: 600px;
-}
-
-
 
 @media (min-width:800px){
     .services{

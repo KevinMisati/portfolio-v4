@@ -20,7 +20,7 @@ const Intro = () => {
             <div className="img-container">
                 <img 
                     src={coderImg}
-                    alt="Hero image"
+                    alt="Hero"
                 />
             </div>
         </section>

@@ -5,11 +5,16 @@
     width: 100%; 
     height: calc(100vh - 75px);
 }
+@media(max-width:800px){
+  .intro-container{
+    flex-direction: column;
+}
+}
 .intro{
-    /* display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column; */
+    flex-direction: column; 
 }
 .img-container img{
   max-width: 400px !important;
