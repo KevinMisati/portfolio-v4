@@ -4,17 +4,26 @@ import {Link} from "react-router-dom"
 import { ANIMATIONTYPE } from '../Pages/Home'
 import electronics from "../images/electronics.png"
 import hospital from "../images/Keumbu hospital.png"
+import resumeBuilder from "../images/resume builder.png"
 import liviti  from "../images/livit.png"
 import jumia from "../images/jumia.png"
 import construction from "../images/construction.png"
 import snapshot from "../images/snapshot.png"
 import nasa  from "../images/nasa.png"
+import { projects } from '../projectsData'
 
-export const projects = [
+export const projects1 = [
     {
         title:"Keumbu hospital",
         url: "https://keumbu-hospital.vercel.app/",
         img: hospital,
+        techs: [],
+        desc:""
+    },
+    {
+        title:"Resume builder",
+        url: "https://build-cvs.vercel.app/",
+        img: resumeBuilder,
         techs: [],
         desc:""
     },
