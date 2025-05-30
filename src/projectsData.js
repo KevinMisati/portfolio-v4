@@ -27,6 +27,14 @@ export const projects = [
         gurl:"https://github.com/KevinMisati/hospitality-management"
     },
     {
+        title: "Resume builder",
+        url: "https://buildcvi.netlify.app/",
+        img: resumeBuilder,
+        techs: ["NextJs","TypeScript","ShadCn","Tailwind CSS"],
+        desc: "This is a full-stack CV builder application",
+        gurl:"https://github.com/KevinMisati/resume-builder"
+    },
+    {
         title: "Snap Shots",
         url: "https://photos01.netlify.app/",
         img: snapshot,
@@ -49,14 +57,6 @@ export const projects = [
         techs: ["NextJs","TypeScript","Appwrite","ShadCdn","Tailwind CSS"],
         desc: "This is a full-stack hospital application with a seamless booking system for doctor appointments",
         gurl:"https://github.com/KevinMisati/healthcare"
-    },
-    {
-        title: "Resume builder",
-        url: "https://build-cvs.vercel.app/",
-        img: resumeBuilder,
-        techs: ["NextJs","TypeScript","Prisma","Clerk","ShadCdn","Tailwind CSS"],
-        desc: "This is a full-stack CV builder application",
-        gurl:"https://github.com/KevinMisati/resume-builder"
     },
 ]
 
