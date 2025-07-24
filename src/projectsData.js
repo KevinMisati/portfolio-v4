@@ -8,6 +8,15 @@ import resumeBuilder from "./images/resume builder.png"
 import  nasa from "./images/nasa.png"
 
 export const projects = [
+
+    {
+        title: "Liviint Homes",
+        url: "https://www.liviint.com/",
+        img: livit,
+        techs: ["CSS", "React"],
+        desc: "This is a website for people who enjoy traveling, possibly during the holidays, and who want to book their accommodation houses or rooms online before they go. They simply look through the houses and rooms and choose the ones they like best.",
+        gurl:"https://github.com/KevinMisati/hospitality-management"
+    },
     
     {
         title: "Electronics Shop",
@@ -18,14 +27,6 @@ export const projects = [
         gurl:"https://github.com/KevinMisati/Lapshop-frontend"
     },
     
-    {
-        title: "Hospitality Website",
-        url: "https://liviti.netlify.app/",
-        img: livit,
-        techs: ["CSS", "React"],
-        desc: "This is a website for people who enjoy traveling, possibly during the holidays, and who want to book their accommodation houses or rooms online before they go. They simply look through the houses and rooms and choose the ones they like best.",
-        gurl:"https://github.com/KevinMisati/hospitality-management"
-    },
     {
         title: "Resume builder",
         url: "https://buildcvi.netlify.app/",
